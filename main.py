@@ -1,4 +1,16 @@
 from PIL import Image
+import praw
+import urllib.request
+
+
+reddit = praw.Reddit(client_id='',
+                     client_secret='',
+                     username='',
+                     password='',
+                     user_agent='')
+
+
+urllib.request.urlretrieve('', 'image.jpg')
 
 image = Image.open('image.jpg')
 
